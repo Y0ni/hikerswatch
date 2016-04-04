@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.corp.t3ll0.hikerswatch.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Latitude:"
+        android:id="@+id/textViewLatitude"
+        android:textAlignment="center"
+        android:textColor="#dedede"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Longitude"
+        android:id="@+id/textViewLongitude"
+        android:textAlignment="center"
+        android:textColor="#dedede"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Accuracy"
+        android:id="@+id/textViewAccuracy"
+        android:textAlignment="center"
+        android:textColor="#dedede"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Speed"
+        android:id="@+id/textViewSpeed"
+        android:textAlignment="center"
+        android:textColor="#dedede"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Altitude"
+        android:id="@+id/textViewAltitude"
+        android:textAlignment="center"
+        android:textColor="#dedede"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Address"
+        android:id="@+id/textViewAddress"
+        android:textAlignment="textStart"
+        android:scrollbars = "vertical"
+        android:textColor="#dedede"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <Button
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:text="Map"
+        android:id="@+id/buttonMap"
+        android:onClick="onMapClick"
+        android:background="#49faf8f8"
+        android:layout_marginTop="20dp"
+        android:textAlignment="gravity"
+        android:textColor="#b0aeae" />
+</LinearLayout>
